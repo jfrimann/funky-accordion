@@ -51,8 +51,19 @@ li{
     font-weight: 100;
     border-bottom: 1px solid #c1243b;
 }
-#funky-accordion-submenu{
+.funky-accordion-submenu{
 	width: 100%;
+	height: 0;
+	overflow: hidden;
+}
+
+.submenu-show{
+	display: inline;
+	height: auto;
+}
+
+a.selected{
+	background-color: #c1243b !important;
 }
 
 #funky-accordion-menu ul ul.funky-accordion-submenu>li>a { /*submenu 1. niveau */
