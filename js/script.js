@@ -12,6 +12,9 @@ var main = function() {
 		
 		var parentTab = $(this).parent().parent();
 		if($(this).parent().children().length > 1 | parentTab.hasClass('funky-accordion-submenu')) {
+			if($(this).hasClass('parent-selected')) {
+				$('.funky-accordion-submenu').removeClass('submenu-show');
+			}
 			$(this).parent().children('.funky-accordion-submenu').toggleClass('submenu-show');
 			//alert('hello again');
 		}else {
