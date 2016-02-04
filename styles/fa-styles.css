@@ -55,15 +55,35 @@ li{
 	width: 100%;
 	height: 0;
 	overflow: hidden;
+	-webkit-transition: height 1s; /* Safari */
+    transition: height 1s;
 }
 
 .submenu-show{
 	display: inline;
 	height: auto;
+	-webkit-transition: height 1s; /* Safari */
+    transition: height 1s;
 }
 
-a.selected{
+a.parent-selected{
 	background-color: #c1243b !important;
+}
+
+a.child-selected{
+	background-color: #444 !important;
+}
+
+a.parent-hover{
+	background-color: #c1243b !important;
+}
+
+a.child-hover{
+	background-color: #444 !important;
+}
+
+#funky-accordion-menu ul ul.funky-accordion-submenu>li>a.selected{
+	background-color: #fff;
 }
 
 #funky-accordion-menu ul ul.funky-accordion-submenu>li>a { /*submenu 1. niveau */
