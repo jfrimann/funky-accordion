@@ -82,6 +82,11 @@ a.child-hover{
 	background-color: #444 !important;
 }
 
+.submenu-indicator{
+	float: right;
+	font-weight: 400;
+}
+
 #funky-accordion-menu ul ul.funky-accordion-submenu>li>a.selected{
 	background-color: #fff;
 }
