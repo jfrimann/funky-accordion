@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funkyAccordion header="My Funky Accordion">
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Apple</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Windows</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Chrome OS</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Social Media</title>
+		<submenu>
+			<submenuItem hasChildren="false" link="http://facebook.com">
+				<title>facebook</title>
+		</submenu>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>HTML 5</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>CSS 3</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Safari</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Firefox</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Opera</title>
+	</menuItem>
+	<menuItem hasChildren="false" fa-icon="fa-apple" link="http://apple.com">
+		<title>Microsoft Edge</title>
+	</menuItem> 
+</funkyAccordion>

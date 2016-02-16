@@ -96,7 +96,13 @@ ul.submenu a.selected{
 ul.submenu>li>ul.submenu>li>a{
 	padding-left: 60px!important;
 	width: 220px !important;
+	background-color: #222!important;
 }
+
+ul.submenu>li>ul.submenu>li>a:hover{
+	background-color: #444!important;
+}
+
 
 .submenu-indicator{
 	float: right;
