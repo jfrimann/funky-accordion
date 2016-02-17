@@ -1,61 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <funkyAccordion header="My Funky Accordion">
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-apple</icon>
 		<title>Apple</title>
 		<link>http://apple.com</link>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-windows</icon>
 		<title>Windows</title>
 		<link>http://microsoft.com</link>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-chrome</icon>
 		<title>Chrome OS</title>
 		<link>http://google.com</link>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-apple</icon>
 		<title>Social Media</title>
 		<link>#</link>
 		<submenu>
-			<submenuItem hasChildren="false">
+			<submenuItem>
 				<title>facebook</title>
 				<link>http://facebook.com</link>
 			</submenuItem>
-			<submenuItem hasChildren="false">
+			<submenuItem>
+				<title>Twitter</title>
+				<link>http://twitter.com</link>
+			</submenuItem>
+			<submenuItem>
 				<title>Twitter</title>
 				<link>http://twitter.com</link>
 			</submenuItem>
 		</submenu>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-html5</icon>
 		<title>HTML 5</title>
 		<link>http://html5.com</link>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-css3</icon>
 		<title>CSS 3</title>
 		<link>http://css3.com</link>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-safari</icon>
 		<title>Safari</title>
 		<link>http://www.apple.com/safari</link>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-firefox</icon>
 		<title>Firefox</title>
 		<link>http://mozilla.com</link>
+		<submenu>
+			<submenuItem>
+				<title>Latest version</title>
+				<link>http://facebook.com</link>
+			</submenuItem>
+			<submenuItem>
+				<title>Previous versions</title>
+				<link>http://twitter.com</link>
+			</submenuItem>
+		</submenu>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-opera</icon>
 		<title>Opera</title>
 		<link>http://opera.com</link>
 	</menuItem>
-	<menuItem hasChildren="false">
+	<menuItem>
 		<icon>fa-edge</icon>
 		<title>Microsoft Edge</title>
 		<link>http://www.microsoft.com/en-us/windows/microsoft-edge#fgIllXfZ32ZffYKx.97</link>

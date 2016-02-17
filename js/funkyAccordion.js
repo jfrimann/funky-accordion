@@ -1,6 +1,5 @@
-var main = function() {
-	
-	setupAccordion();
+var main = function(xml) {
+	setupAccordion(xml);
 	var activeMenuItem; //Used to keep track on clicked- and previously clicked menu item
 	var previousMenuItem;
 	
@@ -42,7 +41,28 @@ var main = function() {
 	})
 };
 
-var setupAccordion = function() {
+var setupAccordion = function(xml) {
+	
+	$('#content').append('<div id="funky-accordion"><div id="menu-header">my header</div><ul></ul></div>');
+	$(xml).find('menuItem').each(function(i) {
+		$('#content>#funky-accordion>ul').append('<li><a href="#"><i class="fa ' + $(this).find('icon').text() + '"></i>' + $(this).children('title').text() + '</a></li>');
+		if($(this).children().length > 3){ //First level of submenus
+			console.log(i);
+			$('#content>#funky-accordion>ul>li:eq(' + i + ')').append('<ul class="submenu">');
+			$(this).find('submenu>submenuItem').each(function(a) {
+				console.log('helo ' + a);
+			})
+			
+		}
+	})
+	/*//
+$(xml).find("Book").each(function () {
+
+    $(".main").append('<div class="book"><div class="title">' + $(this).find("Title").text() +   '</div><div class="description">' + $(this).find("Description").text() + '</div><div   class="date">Published ' + $(this).find("Date").text() + '</div></div>');
+    $(".book").fadeIn(1000);
+
+ });
+*/
 	//Adds a "+" to all menu items that have a submenu
 	var listItems = $('#funky-accordion li');
 	listItems.each(function(i) {
@@ -65,4 +85,11 @@ var caluclateHeight = function(ul) {
 	return itemHeight;
 };
 
-$(document).ready(main);
+$(document).ready(function () {
+$.ajax({
+    type: "GET",
+    url: "xml/funkyaccordion.xml",
+    dataType: "xml",
+    success: main
+   });
+});
