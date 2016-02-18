@@ -3,17 +3,17 @@
 	<menuItem>
 		<icon>fa-apple</icon>
 		<title>Apple</title>
-		<link>http://apple.com</link>
+		<link>#</link>
 	</menuItem>
 	<menuItem>
 		<icon>fa-windows</icon>
 		<title>Windows</title>
-		<link>http://microsoft.com</link>
+		<link>#</link>
 	</menuItem>
 	<menuItem>
 		<icon>fa-chrome</icon>
 		<title>Chrome OS</title>
-		<link>http://google.com</link>
+		<link>#</link>
 	</menuItem>
 	<menuItem>
 		<icon>fa-apple</icon>
@@ -22,56 +22,70 @@
 		<submenu>
 			<submenuItem>
 				<title>facebook</title>
-				<link>http://facebook.com</link>
+				<link>#</link>
 			</submenuItem>
 			<submenuItem>
 				<title>Twitter</title>
-				<link>http://twitter.com</link>
+				<link>#</link>
 			</submenuItem>
 			<submenuItem>
 				<title>Twitter</title>
-				<link>http://twitter.com</link>
+				<link>#</link>
 			</submenuItem>
 		</submenu>
 	</menuItem>
 	<menuItem>
 		<icon>fa-html5</icon>
 		<title>HTML 5</title>
-		<link>http://html5.com</link>
+		<link>#</link>
 	</menuItem>
 	<menuItem>
 		<icon>fa-css3</icon>
 		<title>CSS 3</title>
-		<link>http://css3.com</link>
+		<link>#</link>
 	</menuItem>
 	<menuItem>
 		<icon>fa-safari</icon>
 		<title>Safari</title>
-		<link>http://www.apple.com/safari</link>
+		<link>#</link>
 	</menuItem>
 	<menuItem>
 		<icon>fa-firefox</icon>
 		<title>Firefox</title>
-		<link>http://mozilla.com</link>
+		<link>#</link>
 		<submenu>
 			<submenuItem>
 				<title>Latest version</title>
-				<link>http://facebook.com</link>
+				<link>#</link>
 			</submenuItem>
 			<submenuItem>
-				<title>Previous versions</title>
-				<link>http://twitter.com</link>
+				<title>Old versions</title>
+				<link>#</link>
+				<submenu>
+					<submenuItem>
+						<title>version 1</title>
+						<link>#</link>
+					</submenuItem>
+					<submenuItem>
+						<title>version 2</title>
+						<link>#</link>
+					</submenuItem>
+					<submenuItem>
+						<title>version 3</title>
+						<link>#</link>
+					</submenuItem>
+				</submenu>
 			</submenuItem>
 		</submenu>
 	</menuItem>
 	<menuItem>
 		<icon>fa-opera</icon>
 		<title>Opera</title>
-		<link>http://opera.com</link>
+		<link>#</link>
 	</menuItem>
 	<menuItem>
 		<icon>fa-edge</icon>
 		<title>Microsoft Edge</title>
-		<link>http://www.microsoft.com/en-us/windows/microsoft-edge#fgIllXfZ32ZffYKx.97</link>
+		<link>#</link>
 	</menuItem> 
 </funkyAccordion>

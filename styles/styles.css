@@ -67,9 +67,9 @@ ul.submenu{
 	width: 100%;
 	height: 0;
 	overflow: hidden;
-	transition: height .6s;
-	-webkit-transition: height .6s;
-	-moz-transition: height .6s;
+	transition: height .4s;
+	-webkit-transition: height .4s;
+	-moz-transition: height .4s;
 	transition-timing-function: ease-in-out;
 	-webkit-transition-timing-function: ease-in-out;
 	-moz-transition-timing-function: ease-in-out;
@@ -103,6 +103,9 @@ ul.submenu>li>ul.submenu>li>a:hover{
 	background-color: #444!important;
 }
 
+ul.submenu>li>ul.submenu>li>a.selected{
+	background-color: #444!important;	
+}
 
 .submenu-indicator{
 	float: right;
