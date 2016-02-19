@@ -12,4 +12,5 @@ Javascript/jquery is used to build the HTML from an xml structure. All transitio
  
 ##Links
 [Github page](http://jfrimann.github.io/funky-accordion/)
+
 [Demo page](http://dyrfri.dk/sideprojects/github/funkyaccordion)
