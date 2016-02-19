@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<funkyAccordion header="My Funky Accordion">
+	<menuItem>
+		<icon>fa-apple</icon>
+		<title>Apple</title>
+		<link>#</link>
+	</menuItem>
+	<menuItem>
+		<icon>fa-windows</icon>
+		<title>Windows</title>
+		<link>#</link>
+	</menuItem>
+	<menuItem>
+		<icon>fa-chrome</icon>
+		<title>Chrome OS</title>
+		<link>#</link>
+	</menuItem>
+	<menuItem>
+		<icon>fa-apple</icon>
+		<title>Social Media</title>
+		<link>#</link>
+		<submenu>
+			<submenuItem>
+				<title>facebook</title>
+				<link>#</link>
+			</submenuItem>
+			<submenuItem>
+				<title>Twitter</title>
+				<link>#</link>
+			</submenuItem>
+			<submenuItem>
+				<title>Twitter</title>
+				<link>#</link>
+			</submenuItem>
+		</submenu>
+	</menuItem>
+	<menuItem>
+		<icon>fa-html5</icon>
+		<title>HTML 5</title>
+		<link>#</link>
+	</menuItem>
+	<menuItem>
+		<icon>fa-css3</icon>
+		<title>CSS 3</title>
+		<link>#</link>
+	</menuItem>
+	<menuItem>
+		<icon>fa-safari</icon>
+		<title>Safari</title>
+		<link>#</link>
+	</menuItem>
+	<menuItem>
+		<icon>fa-firefox</icon>
+		<title>Firefox</title>
+		<link>#</link>
+		<submenu>
+			<submenuItem>
+				<title>Latest version</title>
+				<link>#</link>
+			</submenuItem>
+			<submenuItem>
+				<title>Old versions</title>
+				<link>#</link>
+				<submenu>
+					<submenuItem>
+						<title>version 1</title>
+						<link>#</link>
+					</submenuItem>
+					<submenuItem>
+						<title>version 2</title>
+						<link>#</link>
+					</submenuItem>
+					<submenuItem>
+						<title>version 3</title>
+						<link>#</link>
+					</submenuItem>
+				</submenu>
+			</submenuItem>
+		</submenu>
+	</menuItem>
+	<menuItem>
+		<icon>fa-opera</icon>
+		<title>Opera</title>
+		<link>#</link>
+	</menuItem>
+	<menuItem>
+		<icon>fa-edge</icon>
+		<title>Microsoft Edge</title>
+		<link>#</link>
+	</menuItem> 
+</funkyAccordion>

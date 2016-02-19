@@ -67,9 +67,9 @@ ul.submenu{
 	width: 100%;
 	height: 0;
 	overflow: hidden;
-	transition: height .6s;
-	-webkit-transition: height .6s;
-	-moz-transition: height .6s;
+	transition: height .4s;
+	-webkit-transition: height .4s;
+	-moz-transition: height .4s;
 	transition-timing-function: ease-in-out;
 	-webkit-transition-timing-function: ease-in-out;
 	-moz-transition-timing-function: ease-in-out;
@@ -96,6 +96,15 @@ ul.submenu a.selected{
 ul.submenu>li>ul.submenu>li>a{
 	padding-left: 60px!important;
 	width: 220px !important;
+	background-color: #222!important;
+}
+
+ul.submenu>li>ul.submenu>li>a:hover{
+	background-color: #444!important;
+}
+
+ul.submenu>li>ul.submenu>li>a.selected{
+	background-color: #444!important;	
 }
 
 .submenu-indicator{
